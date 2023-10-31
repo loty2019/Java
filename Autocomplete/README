@@ -1,0 +1,3 @@
+This project aims to develop an efficient autocomplete system that predicts and displays relevant suggestions as a user 
+types, using a combination of string sorting, binary search, and weight-based sorting. The system needs to perform well 
+within tight time constraints and is designed to handle a static set of queries and weights.
