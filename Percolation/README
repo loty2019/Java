@@ -1,0 +1,17 @@
+The project's goal is to create a program that can estimate the percolation threshold of a given system. 
+Percolation is a concept used to model the behavior of composite systems composed of randomly distributed insulating
+and metallic materials or porous landscapes with water on the surface (or oil below). It aims to answer the question of
+what fraction of the system needs to be metallic (or open) to allow the composite system to act as an electrical conductor 
+(or allow the liquid to flow through).
+
+The model used for this project is a percolation system represented as an n x n grid of sites. Each site in the grid can
+be either open or blocked. A full site is defined as an open site that can be connected to an open site in the top row of 
+the grid via a chain of neighboring open sites (left, right, up, down). The system is said to percolate if there exists at
+least one full site in the bottom row. In other words, a system percolates if all open sites connected to the top row can 
+reach some open site on the bottom row.
+
+The project's objective is to develop a program that can determine the critical threshold at which percolation occurs in 
+such systems. This threshold represents the minimum fraction of open sites necessary for the system to exhibit the 
+percolation behavior, either in the context of electrical conductivity for insulating/metallic materials or fluid flow for
+porous substances.
+
